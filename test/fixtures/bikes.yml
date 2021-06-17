@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: MyString
+  location: MyString
+  category: MyString
+  integer: 
+  integer: 
+  integer: 
+  integer: 
+
+two:
+  image: MyString
+  location: MyString
+  category: MyString
+  integer: 
+  integer: 
+  integer: 
+  integer: 
