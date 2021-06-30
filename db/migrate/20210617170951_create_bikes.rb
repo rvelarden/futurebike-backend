@@ -8,7 +8,7 @@ class CreateBikes < ActiveRecord::Migration[6.1]
       t.integer :price_week
       t.integer :price_month
       t.integer :price_year
-
+      t.integer :number_of_bikes
       t.timestamps
     end
   end

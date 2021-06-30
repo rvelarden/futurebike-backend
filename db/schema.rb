@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2021_06_17_180906) do
     t.integer "price_week"
     t.integer "price_month"
     t.integer "price_year"
+    t.integer "number_of_bikes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
