@@ -7,7 +7,6 @@ class BookingsController < ApplicationController
     end
 
     def create
-        byebug
         booking = Booking.create(booking_params)
         render json: booking, :include => :bike
         
