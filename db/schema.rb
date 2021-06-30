@@ -27,8 +27,8 @@ ActiveRecord::Schema.define(version: 2021_06_17_180906) do
 
   create_table "bookings", force: :cascade do |t|
     t.integer "bike_id"
-    t.datetime "pickup_time"
-    t.datetime "dropoff_time"
+    t.string "pickup_time"
+    t.string "dropoff_time"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
