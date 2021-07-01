@@ -20,7 +20,7 @@ class BookingsController < ApplicationController
 
     def update
         # byebug
-        booking = Booking.find_by(id: params[:id]) #this is an object
+        booking = Booking.find_by(id: params[:id]) 
         booking.update(booking_params)
         render json: booking, :include => :bike
     end
