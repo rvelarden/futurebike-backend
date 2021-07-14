@@ -19,7 +19,7 @@ Booking.destroy_all
 
     
     4.times do
-        Booking.create(bike: Bike.all.sample, pickup_time:Faker::Time.between(from: DateTime.now - 1, to: DateTime.now, format: :default), dropoff_time:Faker::Time.between(from: DateTime.now - 1, to: DateTime.now, format: :default))
+        Booking.create(bike: Bike.all.sample, pickup_location:Faker::Address.street_address, dropoff_location:Faker::Address.street_address)
     end 
 
 puts "seeded!"
